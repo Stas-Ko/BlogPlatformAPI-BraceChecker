@@ -112,19 +112,20 @@ PUT /api/posts/{id}/
 DELETE /api/posts/{id}/
 ```
 
-Brace Checker Functionality
-Overview
+# Brace Checker Functionality
+## Overview
 The BlogAPI project now includes an additional utility: a Brace Checker functionality. This feature is implemented through the is_valid_parentheses function located in the brace_checker.py file. It validates strings containing a mixture of parentheses ((, ), {, }, [, ]) to determine if the input string is valid according to the rules of correctly matched and nested parentheses.
 
-How It Works
+## How It Works
 The Brace Checker functionality ignores all characters except parentheses and checks if:
 
 Every opening parenthesis has a corresponding closing parenthesis.
 Parentheses are properly nested and closed in the correct order.
-Usage Example
+
+## Usage Example
 This utility can be utilized in various parts of the application where string validation is required, ensuring data integrity and preventing errors related to incorrect parentheses usage.
 
-Testing the Functionality
+## Testing the Functionality
 To verify the correctness of the Brace Checker functionality, unit tests have been written and can be executed with the following command:
 
 ```bash
