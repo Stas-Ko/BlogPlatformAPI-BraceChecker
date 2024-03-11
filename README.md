@@ -29,8 +29,8 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/blogapi.git
-cd blogapi
+git clone https://github.com/Stas-Ko/BlogPlatformAPI-BraceChecker.git
+cd BlogPlatformAPI-BraceChecker
 ```
 
 2. Install required Python packages:
