@@ -122,6 +122,12 @@ The Brace Checker functionality ignores all characters except parentheses and ch
 Every opening parenthesis has a corresponding closing parenthesis.
 Parentheses are properly nested and closed in the correct order.
 
+### File Structure
+
+- `brace_checker.py`: Contains the `is_valid_parentheses` function which implements the logic for validating the string of parentheses.
+  
+- `test_brace_checker.py`: Includes unit tests for testing the `is_valid_parentheses` function. It covers various scenarios to ensure the accuracy and reliability of the brace checking logic.
+
 ## Usage Example
 This utility can be utilized in various parts of the application where string validation is required, ensuring data integrity and preventing errors related to incorrect parentheses usage.
 
